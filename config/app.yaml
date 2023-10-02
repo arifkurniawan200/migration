@@ -1,0 +1,19 @@
+des_db:
+  host: localhost
+  port: 5432
+  name: db_destination
+  username: admin
+  password: admin
+  active_pool: true
+  max_pool: 30
+  min_pool: 5
+
+src_db:
+  host: localhost
+  port: 5432
+  name: db_source
+  username: admin
+  password: admin
+  active_pool: true
+  max_pool: 30
+  min_pool: 5

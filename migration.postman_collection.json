@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "e1b5e535-ccf0-4c05-b97f-d18b3ecebca7",
+		"name": "migration",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19615102"
+	},
+	"item": [
+		{
+			"name": "get source data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/source/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"source",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get destination data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/destination/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"destination",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "migration source to destination",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/destination/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"destination",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
